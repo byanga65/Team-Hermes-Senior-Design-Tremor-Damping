@@ -16,3 +16,5 @@ on the theory, but this is the code we used (along with the data) to generate ou
 form compared to the graph outputs of the MATLAB scripts
 
 ## How to Set Up the System: 
+
+This system will require MATLAB/Simulink installation; no external libraries are needed as we relied on those provided in the student license. The controller MDL file contains inputs where the user can substitute their simulated tremor data and compare it against the norm healthy data; download and load this file in Simulink. As a sample, origx.csv is the healthy data, and tremorx.csv is the undamped simulated tremor data. Press Run in Simulink to simulate damping the tremor data, and click on any blue scope icon to display a particular waveform. 
